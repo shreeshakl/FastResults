@@ -1,0 +1,6 @@
+# FastResults
+It's an academic result announcement website.
+ABSTRACT
+
+FastResults is a new evolution in software field which drives into many people interest. It is developed to make the Academic results announcement process easier by eliminating the problems of existing system. FastResults provides website which facilitates functionalities register and to view the result. It also has a supporting Android application which provides result related notification facility. 
+FastResults consist a Server which is the main actor of this project which handles all the communications with the clients who requests for academic results and administrators who uploads and manages the user’s data and results. The server has a database to store all the user data. The Server is implemented using NodeJS and MySQL. Database tables are fully normalized. For notification Google’s Cloud Messaging also called as Firebase Cloud Messaging is used which is the most efficient technology for notifications. The Google Cloud Messaging provides lot of API’s which is very easier to implement. The communication between Android device and NodeJS is accomplished using JSON objects which is very light and easy to implement. 
